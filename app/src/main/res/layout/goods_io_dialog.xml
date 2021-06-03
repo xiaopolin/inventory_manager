@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:text="商品出入库"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <EditText
+            android:id="@+id/edit_io_count"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:inputType="number"
+            android:hint="请输入数量"
+
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_io_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp">
+            <RadioButton
+                android:id="@+id/radio_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="入库"/>
+            <RadioButton
+                android:id="@+id/radio_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出库"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

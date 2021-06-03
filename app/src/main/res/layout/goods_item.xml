@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:id="@+id/goods_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/goods_name"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/goods_count"
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/goods_delete"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:text="删除"
+        android:minHeight="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/goods_io"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:text="操作"
+        android:minHeight="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorOrange"/>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_logo"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仓库名称："/>
+
+        <EditText
+            android:id="@+id/edit_warehouse_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一号仓库"
+            android:enabled="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仓库地址："/>
+        <EditText
+            android:id="@+id/edit_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二教E301"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仓库容量："/>
+        <EditText
+            android:id="@+id/edit_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120平方米"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备注："/>
+
+        <EditText
+            android:id="@+id/edit_remark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不防水"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="仓库负责人："/>
+        <EditText
+            android:id="@+id/edit_director_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="李老师"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="负责人联系方式："/>
+        <EditText
+            android:id="@+id/edit_director_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13928096715"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/button_update_warehouse"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="编辑"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorGreen"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:id="@+id/button_to_manage"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="返回"
+            android:textSize="18dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorGrey"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

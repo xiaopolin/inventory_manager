@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:id="@+id/goods_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/goods_count"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:id="@+id/io_type_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/record_detail"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="详情"
+        android:minHeight="10dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorOrange"
+        />
+
+</LinearLayout>
